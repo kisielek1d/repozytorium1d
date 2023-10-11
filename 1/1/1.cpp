@@ -8,10 +8,14 @@ int main()
 
     std::cout << "Hello World!\n";
     std::cout << "Mam na Imie Filip\n";
-    
+    std::cout << 'X'; //sta³a znakowa-musi byæ jeden znak
+    std::cout << "\n";
+    std::cout << "\n";
+    std::cout << 57574 << "\n"; //sta³a liczbowa ca³kowita
+    std::cout << 12.5 << "\n"; //sta³a liczbowa rzeczywista
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
+// run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
 // Tips for Getting Started: 
