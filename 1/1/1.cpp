@@ -5,8 +5,7 @@
 
 int main()
 {
-
-    std::cout << "Hello World!\n";
+    std::cout << "Hello World!\n";  
     std::cout << "Mam na Imie Filip\n";
     std::cout << 'X'; //sta³a znakowa-musi byæ jeden znak
     std::cout << "\n";
