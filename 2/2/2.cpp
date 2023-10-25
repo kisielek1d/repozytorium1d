@@ -5,16 +5,27 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+/*
+Algorytm - zbiór instrukcji realizuj¹cych postawione przed nim zadanie.
+Sposób zapisu:
+* w punktach
+* opis s³owny
+* jêzyk programowania lub pseudokod
+* zbiór rysunków
+* schemat blokowy
+ 
+ Zmienna - jest to pewien obszar pamiêci s³u¿¹cy do przechowywania danych. Te dane mo¿na modyfikowaæ
+ Zmienna pozwala przechowaæ tylko jedn¹ wartoœæ w danym momencie czasu.
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+ Daklaracja zmiennej - moment jej utworzenia.
+
+ typ_zmiennej nazwa_zmiennej;
+
+ Typ zmiennej -  mówi o wielkoœci obszaru w pamiêci i rodzaju przechowywanych danych.
+short   liczby ca³kowite ze znakiem    2 bajty  <-32 768; 32 727>
+int     liczby ca³kowite ze znakiem    4 bajty  <-2 147 483 648; 2 147 483 647>
+
+*/
