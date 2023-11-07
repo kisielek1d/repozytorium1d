@@ -10,6 +10,7 @@ int main()
 
 /*
 Algorytm - skoñczony zbiór instrukcji realizuj¹cych postawione przed nim zadanie.
+Kolejnoœæ instrukcji w zbiorze jest okreœlona.
 Sposób zapisu:
 * w punktach
 * opis s³owny
