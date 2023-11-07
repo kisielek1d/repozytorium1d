@@ -17,14 +17,17 @@ void task1()
 void task2()
 {
     float LengthInMeterFromUser;
-    std::cout << "Podaj d³ugoœæ w metrach \n";
+    std::cout << "Podaj dlugosc w metrach \n";
     std::cin >> LengthInMeterFromUser;
 
     float LengthInCentimeter;
-        LengthInCentimeter = LengthInMeterFromUser / 100;
+        LengthInCentimeter = LengthInMeterFromUser * 100;
+
+        std::cout << "Dlugosc w centymetrach wynosi: " << LengthInCentimeter << " cm. \n";
 
         float LenghtInMilimeter;
-        LenghtInMilimeter = LengthInCentimeter / 10;
+        LenghtInMilimeter = LengthInCentimeter * 10;
+        std::cout << "Dlugosc w milimetrach wynosi : " << LenghtInMilimeter << " mm. \n";
 
     float LenghtInKilometer;
         LenghtInKilometer = LengthInMeterFromUser * 1000;

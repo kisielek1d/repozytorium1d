@@ -9,7 +9,7 @@ int main()
 }
 
 /*
-Algorytm - zbiór instrukcji realizuj¹cych postawione przed nim zadanie.
+Algorytm - skoñczony zbiór instrukcji realizuj¹cych postawione przed nim zadanie.
 Sposób zapisu:
 * w punktach
 * opis s³owny
