@@ -74,25 +74,128 @@ void task5()
 	std::cout << "Pole ko³a wynosi: " << areaOfCircle << "\n";
 }
 
+//Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci podstawy a, podstawy b i wysokoœci h trapezu, a nastêpnie obliczy pole tego trapezu, wyœwietlaj¹c wynik.
+
+void task6()
+{
+	std::cout << "Podaj d³ugoœæ podstawy a: \n";
+	float sideA;
+	std::cin >> sideA;
+	std::cout << "Podaj d³ugoœæ podstawy b: \n";
+	float sideB;
+	std::cin >> sideB;
+	std::cout << "Podaj d³ugoœæ wysokoœci: \n";
+	float height;
+	std::cin >> height;
+	float areaOfTrapeze;
+	areaOfTrapeze = ( sideA = sideB ) * height /2;
+	std::cout << "Pole trapezu wynosi: " << areaOfTrapeze << "\n";
+}
+
+//Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci krawêdzi szeœcianu i obliczy jego objêtoœæ, wyœwietlaj¹c wynik.
+
+void task7()
+{
+	std::cout << "Podaj d³ugoœæ krawedzi. \n";
+	float edge;
+	std::cin >> edge;
+	float areaOfCube;
+	areaOfCube = edge * edge * edge;
+	std::cout << "Pole szeœcianu wynosi: " << areaOfCube << "\n"; \
+}
+
+//Napisz program, który poprosi u¿ytkownika o podanie temperatury w stopniach Celsiusza, a nastêpnie przeliczy j¹ na stopnie Fahrenheita i wyœwietli wynik.
+
+void task8()
+{
+	std::cout << "Podaj temperature w stopniach Celsjusza: \n";
+	float tempC;
+	std::cin >> tempC;
+	float tempF;
+	tempF = tempC * 9 / 5 + 32;
+	std::cout << "Temperatura w farenhajtach wynosi: " << tempF << "\n";
+
+}
+
+//Napisz program, który poprosi u¿ytkownika o podanie dwóch liczb (a, b) i obliczy œredni¹ arytmetyczn¹ tych liczb. Nastêpnie wyœwietli wynik.
+
+void task9()
+{
+	std::cout << "Podaj 1 liczbe \n";
+	float numberA;
+	std::cin >> numberA;
+	std::cout << "Podaj 2 liczbe \n";
+	float numberB;
+	std::cin >> numberB;
+	float mean;
+	mean = (numberA + numberB) / 2;
+	std::cout << "Œrednia arytmetyczna wynosi: " << mean << "\n";
+}
+
+//Napisz program, który poprosi u¿ytkownika o podanie trzech liczb (a, b, c) i obliczy œredni¹ arytmetyczn¹ tych liczb. Nastêpnie wyœwietli wynik.
+
+void task10()
+{
+	std::cout << "Podaj 1 liczbe \n";
+	float numberA;
+	std::cin >> numberA;
+	std::cout << "Podaj 2 liczbe \n";
+	float numberB;
+	std::cin >> numberB;
+	std::cout << "Podaj 3 liczbe \n";
+	float numberC;
+	std::cin >> numberC;
+	float mean;
+	mean = (numberA + numberB + numberC) / 3;
+	std::cout << "Œrednia arytmetyczna wynosi: " <<  mean << "\n";
+}
+
+//Program obliczaj¹cy œredni¹ wa¿on¹ trzech liczb z podanymi odpowiednimi wagami w1, w2 i w3.
+
+void task11()
+{
+	std::cout << "Podaj 1 liczbe \n";
+	float w1;
+	std::cin >> w1;
+	std::cout << "Podaj 2 liczbe \n";
+	float w2;
+	std::cin >> w2;
+	std::cout << "Podaj 3 liczbe \n";
+	float w3;
+	std::cin >> w3;
+}
+
+//Napisz program, który konwertuje wprowadzon¹ kwotê w jednej walucie na inna, korzystaj¹c z okreœlonego kursu wymiany.
+
+void task12()
+{
+	std::cout << "Podaj kwote w z³otówkach \n";
+	float zloty;
+	std::cin >> zloty;
+	float euro;
+	euro = zloty / 4.42;
+	std::cout << "Kwota w euro wynosi: " << euro << "\n";
+	float pound;
+	pound = zloty / 5.07;
+	std::cout << "Kwota w funtach wynosi: " << pound << "\n";
+}
+
+//Napisz program, który poprosi u¿ytkownika o podanie liczby sekund i przeliczy je na godziny i minuty, wyœwietlaj¹c wynik.
+
+void task13()
+{
+	std::cout << " Podaj iloœæ sekund: \n";
+	float sec;
+	std::cin >> sec;
+	float hour;
+	float minute;
+	std::cout << "Godzin" << hour << "\n";
+	std::cout << "Minut" << minute << "\n";
+
+}
+
 /*
-* Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci podstawy a, podstawy b i wysokoœci h trapezu, a nastêpnie obliczy pole tego trapezu, wyœwietlaj¹c wynik.
-
-* Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci krawêdzi szeœcianu i obliczy jego objêtoœæ, wyœwietlaj¹c wynik.
-
-* Napisz program, który poprosi u¿ytkownika o podanie temperatury w stopniach Celsiusza, a nastêpnie przeliczy j¹ na stopnie Fahrenheita i wyœwietli wynik.
-
-* Napisz program, który konwertuje wprowadzon¹ kwotê w jednej walucie na inn¹, korzystaj¹c z okreœlonego kursu wymiany.
-
-* Napisz program, który poprosi u¿ytkownika o podanie dwóch liczb (a, b) i obliczy œredni¹ arytmetyczn¹ tych liczb. Nastêpnie wyœwietli wynik.
-
-* Napisz program, który poprosi u¿ytkownika o podanie trzech liczb (a, b, c) i obliczy œredni¹ arytmetyczn¹ tych liczb. Nastêpnie wyœwietli wynik.
-
-* Program obliczaj¹cy œredni¹ wa¿on¹ trzech liczb z podanymi odpowiednimi wagami w1, w2 i w3.
-
 * Napisz program, który poprosi u¿ytkownika o podanie dwóch liczb ca³kowitych. Nastêpnie wykona operacje (+, -, *, /) i wyœwietli wyniki.
-
-* Napisz program, który poprosi u¿ytkownika o podanie liczby sekund i przeliczy je na godziny i minuty, wyœwietlaj¹c wynik.
-
 * Napisz program, który poprosi u¿ytkownika o podanie wspó³rzêdnych (x1, y1) i (x2, y2) dwóch punktów w uk³adzie kartezjañskim, a nastêpnie obliczy odleg³oœæ miêdzy nimi, wyœwietlaj¹c wynik.
 */
 
@@ -103,5 +206,13 @@ int main()
 	//task2();
 	//task3();
 	//task4();
-	task5();
+	//task5();
+	//task6();
+	//task7();
+	//task8();
+	//task9();
+	//task10();
+	//task11();
+	//task12();
+	task13();
 }
