@@ -189,15 +189,53 @@ void task13()
 	std::cin >> sec;
 	float hour;
 	float minute;
-	std::cout << "Godzin" << hour << "\n";
-	std::cout << "Minut" << minute << "\n";
+	hour = sec / 3600;
+		minute = sec / 60;
+	std::cout << "Godzin " << hour << "\n";
+	std::cout << "Minut " << minute << "\n";
 
 }
 
-/*
-* Napisz program, który poprosi u¿ytkownika o podanie dwóch liczb ca³kowitych. Nastêpnie wykona operacje (+, -, *, /) i wyœwietli wyniki.
-* Napisz program, który poprosi u¿ytkownika o podanie wspó³rzêdnych (x1, y1) i (x2, y2) dwóch punktów w uk³adzie kartezjañskim, a nastêpnie obliczy odleg³oœæ miêdzy nimi, wyœwietlaj¹c wynik.
-*/
+//Napisz program, który poprosi u¿ytkownika o podanie dwóch liczb ca³kowitych. Nastêpnie wykona operacje (+, -, *, /) i wyœwietli wyniki.
+
+void task14()
+{
+	std::cout << "Podaj 1 liczbe ca³kowit¹: \n";
+	float numberA;
+	std::cin >> numberA;
+	std::cout << "Podaj 2 liczbe ca³kowit¹ \n";
+	float numberB;
+	std::cin >> numberB;
+	float additionResult, subtractionResult, multiplicationResult, divisionResult;
+	additionResult = numberA + numberB;
+	std::cout << "Wynik dodawania: " << additionResult << "\n";
+	subtractionResult = numberA - numberB;
+	std::cout << "Wynik Odejmowania: " << subtractionResult << "\n";
+	multiplicationResult = numberA * numberB;
+	std::cout << "Wynik Mno¿enia: " << multiplicationResult << "\n";
+	divisionResult = numberA / numberB;
+	std::cout << "Wynik Dzielenia: " << divisionResult << "\n";
+}
+
+//Napisz program, który poprosi u¿ytkownika o podanie wspó³rzêdnych (x1, y1) i (x2, y2) dwóch punktów w uk³adzie kartezjañskim, a nastêpnie obliczy odleg³oœæ miêdzy nimi, wyœwietlaj¹c wynik.
+
+void task15()
+{
+	float x1, x2, y1, y2;
+	std::cout << "Podaj wspó³rzêdne punktów x1, y1: \n";
+	std::cin >> x1 >> y1;
+	std::cout << "Podaj wspó³rzêdne x2, y2: \n";
+	std::cin >> x2 >> y2;
+	float distanceOne;
+	distanceOne = sqrt(pow(x1 - y1, 2));
+	std::cout << "Dystans pomiedzy x1,y1: " << distanceOne << "\n";
+	float distanceTwo;
+	distanceTwo = sqrt(pow(x2 - y2, 2));
+	std::cout << "Dystans pomiedzy x2,y2: " << distanceTwo << "\n";
+
+}
+
+
 
 int main()
 {
@@ -214,5 +252,7 @@ int main()
 	//task10();
 	//task11();
 	//task12();
-	task13();
+	//task13();
+	//task14();
+	task15();
 }
