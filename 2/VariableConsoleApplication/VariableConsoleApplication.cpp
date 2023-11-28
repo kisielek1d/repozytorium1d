@@ -69,7 +69,7 @@ void task5()
 	std::cout << "Podaj promien ko³a: \n";
 	float radius;
 	std::cin >> radius;
-	float areaOfCircle;
+	double areaOfCircle;
 	areaOfCircle = 3.14 * radius * radius;
 	std::cout << "Pole ko³a wynosi: " << areaOfCircle << "\n";
 }
@@ -154,15 +154,18 @@ void task10()
 
 void task11()
 {
-	std::cout << "Podaj 1 liczbe \n";
+	std::cout << "Podaj 1 liczbe wagi 1 \n";
 	float w1;
 	std::cin >> w1;
-	std::cout << "Podaj 2 liczbe \n";
+	std::cout << "Podaj 2 liczbe wagi 2 \n";
 	float w2;
 	std::cin >> w2;
-	std::cout << "Podaj 3 liczbe \n";
+	std::cout << "Podaj 3 liczbe wagi 3 \n";
 	float w3;
 	std::cin >> w3;
+	float weightedAverage;
+	weightedAverage = (w1 + w2 * 2 + w3 * 3) / 6;
+	std::cout << "Œrednia wa¿ona wynosi: " << weightedAverage << "\n";
 }
 
 //Napisz program, który konwertuje wprowadzon¹ kwotê w jednej walucie na inna, korzystaj¹c z okreœlonego kursu wymiany.
@@ -172,10 +175,10 @@ void task12()
 	std::cout << "Podaj kwote w z³otówkach \n";
 	float zloty;
 	std::cin >> zloty;
-	float euro;
+	double euro;
 	euro = zloty / 4.42;
 	std::cout << "Kwota w euro wynosi: " << euro << "\n";
-	float pound;
+	long double pound;
 	pound = zloty / 5.07;
 	std::cout << "Kwota w funtach wynosi: " << pound << "\n";
 }
@@ -226,10 +229,10 @@ void task15()
 	std::cin >> x1 >> y1;
 	std::cout << "Podaj wspó³rzêdne x2, y2: \n";
 	std::cin >> x2 >> y2;
-	float distanceOne;
+	double distanceOne;
 	distanceOne = sqrt(pow(x1 - y1, 2));
 	std::cout << "Dystans pomiedzy x1,y1: " << distanceOne << "\n";
-	float distanceTwo;
+	long double distanceTwo;
 	distanceTwo = sqrt(pow(x2 - y2, 2));
 	std::cout << "Dystans pomiedzy x2,y2: " << distanceTwo << "\n";
 
@@ -254,5 +257,6 @@ int main()
 	//task12();
 	//task13();
 	//task14();
-	task15();
+	//task15();
+
 }

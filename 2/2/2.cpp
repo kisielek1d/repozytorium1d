@@ -42,7 +42,7 @@ Wymagania kompilatora wzglêdem nazwy:
 *u¿ycie tylko dozwolonych znaków 
 - alfabet angielski od a-z oraz A - Z
 -cyfry arabskie 0 - 9                                                           * *
--podkreœlenie (pod³oga)                                                         ---
+-podkreœlenie (pod³oga)                                                         ---   
 *pierwszym znakiem nie mo¿e byæ cyfra
 * nie mo¿e to byæ s³owo kluczowe danego jêzyka programowania
 * musi byc unikalna w danej woidocznoœci
