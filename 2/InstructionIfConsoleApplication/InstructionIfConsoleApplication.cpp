@@ -109,11 +109,47 @@ void task2()
 		std::cout << "Liczba nie jest w zakresie\n";
 	}
 }
+//Napisz program który wczyta liczbe i poda najwieksza z nich
+void task3()
+{
+	int firstNumber;
+	std::cout << "Podaj liczbê \n";
+	std::cin >> firstNumber;
+	std::cout << "Najwiêksza wartoœæ to: " << firstNumber << "\n";
+	
+}
+
+//Napisz program który wczyta 2 liczby i wyœwietli najwieksza z nich
+void task4()
+{
+	int firstNumber, secondNumber;
+	std::cout << "Podaj 1 liczbê \n";
+	std::cin >> firstNumber;
+	std::cout << "Podaj 2 liczbê \n";
+	std::cin >> secondNumber;
+	
+	if (firstNumber > secondNumber)
+	{
+		std::cout << "Najwiêksza wartoœæ to: " << firstNumber << "\n";
+	}
+	else
+	{
+		std::cout << "Najwiêksza wartoœæ to: " << secondNumber << "\n";
+	}
+}
+
+void task5()
+{
+
+}
 
 int main()
 {
 	setlocale(LC_CTYPE, "polish");
 	
 	//task1()
-	task2();
+	//task2();
+	//task3();
+	//task4();
+	task5();
 }	
