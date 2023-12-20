@@ -138,9 +138,32 @@ void task4()
 	}
 }
 
+//Napisz program który wczyta 3 liczby i wyœwietli najwieksza z nich
 void task5()
 {
+	int firstNumber, secondNumber, thirdNumber;
+	std::cout << "Podaj 1 liczbê \n";
+	std::cin >> firstNumber;
+	std::cout << "Podaj 2 liczbê \n";
+	std::cin >> secondNumber;
+	std::cout << "Podaj 3 liczbê \n";
+	std::cin >> thirdNumber;
 
+	if (thirdNumber > firstNumber && thirdNumber > secondNumber)
+	{
+		std::cout << "Najwieksza wartoœæ to: " << thirdNumber << "\n";
+	}
+	else
+	{
+		if (secondNumber > firstNumber)
+		{
+			std::cout << "Najwieksza wartoœæ to: " << secondNumber << "\n";
+		}
+		else
+		{
+			std::cout << "Najwieksza wartoœæ to: " << firstNumber << "\n";
+		}
+	}
 }
 
 int main()
