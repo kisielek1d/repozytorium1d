@@ -164,7 +164,7 @@ void task5()
 			std::cout << "Najwieksza wartoœæ to: " << firstNumber << "\n";
 		}
 	}
-}
+} 
 
 int main()
 {
