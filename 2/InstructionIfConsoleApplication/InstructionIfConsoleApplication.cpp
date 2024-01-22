@@ -166,6 +166,67 @@ void task5()
 	}
 } 
 
+void task6()
+{
+	int firstNumber;
+	std::cout << "Podaj liczbê: \n";
+	std::cin >> firstNumber;
+
+	std::cout << "Liczby w kolejnoœci rosn¹cej:\n";
+	std::cout << firstNumber;
+}
+
+void task7()
+{
+	int firstNumber, secondNumber;
+	std::cout << "Podaj 1 liczbê \n";
+	std::cin >> firstNumber;
+
+	std::cout << "Podaj 2 liczbê \n";
+	std::cin >> secondNumber;
+
+	if (firstNumber > secondNumber)
+		std::cout << secondNumber << ", " << firstNumber;
+	else
+		std::cout << firstNumber << ", " << secondNumber;
+}
+
+
+void task8()
+{
+	int firstNumber, secondNumber, thirdNumber;
+	std::cout << "Podaj 1 liczbê \n";
+	std::cin >> firstNumber;
+
+	std::cout << "Podaj 2 liczbê \n";
+	std::cin >> secondNumber;
+
+	std::cout << "Podaj 3 liczbê \n";
+	std::cin >> thirdNumber;
+
+	if (thirdNumber < secondNumber
+		&& thirdNumber < firstNumber)
+	{
+		std::cout << thirdNumber;
+
+		if (secondNumber < firstNumber)
+		{
+			std::cout << ", " << secondNumber;
+		}
+		else
+		{
+			std::cout << ", " << firstNumber;
+		}
+	}
+	else
+	{
+		if (secondNumber < firstNumber)
+		{
+			std::cout << secondNumber << ", ";
+		}
+	}
+}
+
 int main()
 {
 	setlocale(LC_CTYPE, "polish");
@@ -174,5 +235,8 @@ int main()
 	//task2();
 	//task3();
 	//task4();
-	task5();
+	//task5();
+	//task6();
+	//task7();
+	task8();
 }	
