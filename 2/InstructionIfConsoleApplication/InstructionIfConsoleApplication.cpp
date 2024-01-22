@@ -223,6 +223,18 @@ void task8()
 		if (secondNumber < firstNumber)
 		{
 			std::cout << secondNumber << ", ";
+			if (thirdNumber < firstNumber)
+				std::cout << thirdNumber << ", " << firstNumber;
+			else
+				std::cout << firstNumber << ", " << thirdNumber;
+		}
+		else
+		{
+			std::cout << firstNumber << ", ";
+			if (thirdNumber < secondNumber)
+				std::cout << thirdNumber << ", " << secondNumber;
+			else
+				std::cout << secondNumber << ". " << thirdNumber;
 		}
 	}
 }
