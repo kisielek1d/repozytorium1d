@@ -407,6 +407,34 @@ void task14()
 	}
 }
 
+
+
+void task15()
+{ 
+	int number;
+	std::cout << "Podaj liczbe dodatnią\n";
+	std::cin >> number;
+
+	if (number > 0)
+		std::cout << "Podana liczba to " << number << "\n";
+	else
+	{
+		std::cout << "Podałeś liczbe ujemną, podaj liczbę jeszcze raz ";
+		std::cin >> number;
+
+
+		if (number > 0)
+			std::cout << "Podana liczba to " << number << "\n";
+		else
+		{
+			std::cout << "Podałeś liczbe ujemną, podaj liczbę jeszcze raz ";
+			std::cin >> number;
+		}
+	}
+	
+
+}
+
 int main()
 {
 	setlocale(LC_CTYPE, "polish");
@@ -424,4 +452,6 @@ int main()
 	//task11();
 	//task12();
 	//task13();
+	//task14();
+	task15();
 }
