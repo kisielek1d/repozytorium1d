@@ -415,23 +415,25 @@ void task15()
 	std::cout << "Podaj liczbe dodatnią\n";
 	std::cin >> number;
 
-	if (number > 0)
-		std::cout << "Podana liczba to " << number << "\n";
-	else
-	{
-		std::cout << "Podałeś liczbe ujemną, podaj liczbę jeszcze raz ";
-		std::cin >> number;
 
+	while (true)
+	{
 
 		if (number > 0)
-			std::cout << "Podana liczba to " << number << "\n";
+			std::cout << "Podana liczba to " << number<<  endl;
 		else
 		{
-			std::cout << "Podałeś liczbe ujemną, podaj liczbę jeszcze raz ";
+			std::cout << "Podałeś liczbe ujemną, podaj liczbę jeszcze raz\n ";
 			std::cin >> number;
-		}
-	}
-	
+		} 
+	} 
+
+
+}
+
+
+void task 16()
+{
 
 }
 
