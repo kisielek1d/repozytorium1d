@@ -44,9 +44,43 @@ void task1()
     std::cout << "Podano liczbę " << number << "\n";
 }
 
+void task2()
+{
+    int randomNumber, numberFromUser;
+
+    srand(time(0));
+    randomNumber = rand();
+
+   // std::cout << "Liczba losowa " << randomNumber << "\n";
+
+    std::cout << "Podaj liczbę: ";
+    std::cin >> numberFromUser;
+
+    if (numberFromUser = randomNumber)
+    {
+        std::cout << "Podaj liczbę: ";
+        std::cin >> numberFromUser;
+
+        if (numberFromUser = randomNumber)
+        {
+
+            std::cout << "Podaj liczbę: ";
+            std::cin >> numberFromUser;
+
+            if (numberFromUser = randomNumber)
+            {
+                //...
+            }
+        }
+    }
+
+    std::cout << "Gratulacje, zgadłeś liczbe\n";
+}
+
 int main()
 {
     setlocale(LC_CTYPE, "polish");
 
-    task1();
+    //task1();
+    task2();
 }
