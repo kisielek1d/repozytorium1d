@@ -90,7 +90,7 @@ void task3()
     std::cout << "Podaj górny zakres: \n";
     std::cin >> upperRange;
 
-    std::cout << "0, ";
+    /*std::cout << "0, ";
     if (upperRange >= 1)
     {
         std::cout << "1, ";
@@ -99,14 +99,19 @@ void task3()
         {
             std::cout << "2, ";
 
-            if (upperRange >= 2)
+            if (upperRange >= 3)
             {
                 std::cout << "3, ";
             }
         }
-    }
-    
+    }*/
+    int number = 0;
 
+
+    do
+    {
+        std::cout << "O , ";
+        number = number + 1;
 
 
 }
