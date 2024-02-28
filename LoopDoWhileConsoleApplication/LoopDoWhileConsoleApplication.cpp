@@ -84,6 +84,7 @@ void task2()
 }
 
 //Napisz program który wyświetli liczby całkowite z przedziału <0, x) (wartosc x podaje użytkownik)
+
 void task3()
 {
     int upperRange;
@@ -112,15 +113,54 @@ void task3()
     {
         std::cout << "O , ";
         number = number + 1;
-
-
+    } while (upperRange >= number);
 }
 
-int main()
-{
+
+    //Napisz program który policzy sumę cyfr podanej przez uzytkownika liczby
+    void task4()
+    {
+        int number;
+        do {
+            std::cout << "Podaj Liczbę Dodatnią\n";
+            std::cin >> number;
+        } while (number < 0);
+        int tmpNumber;
+        tmpNumber = 0;
+        int sumOfDigits;
+        sumOfDigits = 0;
+        /*if (number - tmpNumber % 10 != 0);
+        {
+            tmpNumber++;
+            if (number - tmpNumber % 10 != 0);
+        }
+            {
+                tmpNumber++;
+                if (number - tmpNumber % 10 != 0);
+            } 
+                {
+                tmpNumber++;
+                if (number - tmpNumber % 10 != 0);
+                }
+        */
+        do
+        {
+            int rest = number % 10;
+            sumOfDigits = sumOfDigits + rest;
+
+            number = number / 10;
+
+        } while (number > 0);
+            std::cout << "suma cyfr wynosi " << sumOfDigits << "\n";
+
+    }
+
+    int main()
+{ 
     setlocale(LC_CTYPE, "polish");
 
     //task1();
     //task2();
-    task3();
-}
+    //task3();
+    task4();
+} 
