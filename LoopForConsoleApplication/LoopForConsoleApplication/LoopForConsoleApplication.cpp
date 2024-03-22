@@ -17,9 +17,8 @@ using namespace std;
 
 * 
 
-* Oblicz sumę szeregu 1/1^2 + 1/2^2 + 1/3^2 + ... +1/n^2. Jeżeli się nie pomylisz, to dla odpowiednio dużej wartości n po przemnożeniu jej przez 6 i spierwiastkowaniu powinieneś otrzymać wartość liczby π (suma szeregu jest równa π2/6). Zwróć uwagę, że pierwsza wartość indeksu to 1, a nie 0. Dokładność obliczeń można sprawdzić porównując z wartością odczytaną z własności Math.PI.
-
-* Napisz program, który rozkłoży liczbę na czynniki pierwsze.
+* 
+* 
 
 */
 
@@ -243,6 +242,38 @@ void task13()
 	
 }
 
+//Oblicz sumę szeregu 1/1^2 + 1/2^2 + 1/3^2 + ... +1/n^2. Jeżeli się nie pomylisz, to dla odpowiednio dużej wartości n po przemnożeniu jej przez 6 
+//i spierwiastkowaniu powinieneś otrzymać wartość liczby π (suma szeregu jest równa π2/6). Zwróć uwagę, że pierwsza wartość indeksu to 1, a nie 0.
+//  Dokładność obliczeń można sprawdzić porównując z wartością odczytaną z własności Math.PI.
+
+
+void task14()
+{
+
+}
+
+//Napisz program, który rozkłoży liczbę na czynniki pierwsze.
+
+void task15()
+{
+	int number;
+	cout << "Podaj liczbe\n";
+	cin >> number;
+
+	cout << " Czynniki pierwsze liczby " << number << " to: ";
+
+	for (int i = 2; i <= number; i++)
+	{
+		while (number % i == 0)
+		{
+			cout << i << " ";
+
+			number /= i;
+		}
+	}
+
+}
+
 int main()
 {
 	//task1();
@@ -257,5 +288,7 @@ int main()
 	//task10();
 	//task11();
 	//task12();
-	task13();
+	//task13();
+	//task14();
+	task15();
 }
