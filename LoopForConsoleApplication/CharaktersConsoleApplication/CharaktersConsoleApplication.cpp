@@ -96,10 +96,76 @@ void task6()
 		} while (password != "abc");
 }
 
+//Program sprawdzaj¹cy czy podany ci¹g znaków jest palindromem (czyli takim, który czytany od ty³u jest taki sam, jak czytany od przodu, np. "kajak")
+
+void task7()
+{
+	string textFromUser;
+	cout << "Podaj ci¹g znaków: ";
+	cin >> textFromUser;
+
+	bool isPalindrom = true;
+
+	for (int fromStart = 0,  fromEnd = textFromUser.length() - 1 ;fromStart < fromEnd  ; fromStart++, fromEnd--)
+	{
+		if (textFromUser[fromStart] != textFromUser[fromEnd])
+		{
+			isPalindrom = false;
+			break;
+		}
+	}
+
+	if (isPalindrom = true)
+		cout << "ten wyraz jest palindromem\n";
+	else
+		cout << "Ten wyraz nie jest palindromem\n";
+
+
+}
+
+
+//Program sprawdzaj¹cy czy podane dwa s³owa s¹ anagramami (czyli takimi, które zawieraj¹ te same litery, ale w innym uk³adzie, np. "klasa" i "salka")
+
+void task8()
+{
+	string word, word1;
+
+	cout << "Podaj pierwsze s³owo: ";
+	cin >> word;
+	cout << "Podaj drugie s³owo: ";
+	cin >> word1;
+
+	if (word.length() != word1.length())
+	{
+		cout << "Podane s³owa nie s¹ anagramami";
+	}
+
+
+}
+
+void task9()
+{
+	int number;
+	cout << "podaj liczbê:\n";
+	cin >> number;
+
+	int tmpNumber = number;
+	string binNumber = " ";
+
+	cout << "Twoja liczba w systemie binarnym wynosi: " << binNumber << "\n"; 
+
+	do
+	{
+		int rest = tmpNumber % 2;
+		tmpNumber = tmpNumber / 2;
+
+		cout << rest << "\n";
+	} while (tmpNumber != 0);
+
+
+}
+
 /*
-* 
-* Program sprawdzaj¹cy czy podany ci¹g znaków jest palindromem (czyli takim, który czytany od ty³u jest taki sam, jak czytany od przodu, np. "kajak")
-* Program sprawdzaj¹cy czy podane dwa s³owa s¹ anagramami (czyli takimi, które zawieraj¹ te same litery, ale w innym uk³adzie, np. "klasa" i "salka")
 * Program wyci¹gaj¹cy informacje z numeru PESEL
 * Program implementuj¹cy algorytm szyfrowania Cezara (proste szyfrowanie, w którym ka¿dy znak w tekœcie jest zastêpowany innym znakiem, przesuniêtym o sta³¹ liczbê pozycji w alfabecie).
 */
@@ -107,10 +173,6 @@ void task6()
 
 //Program sprawdzaj¹cy czy podane dwa s³owa s¹ anagramami(czyli takimi, które zawieraj¹ te same litery, ale w innym uk³adzie, np. "klasa" i "salka")
 
-void task7()
-{
-
-}
 
 int main()
 {
@@ -119,5 +181,5 @@ int main()
 	//task3();
 	//task4(); 
 	//task5();
-	task6();
+	task7();
 }
