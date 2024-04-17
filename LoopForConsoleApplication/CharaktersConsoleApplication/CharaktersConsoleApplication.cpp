@@ -245,15 +245,16 @@ void task11()
 
 	//licze srednia
 
-	int sum = 1;
+	int sum = numbers[0];
 
 	for (int i = 0; i < arrayNumberSize; i++)
 	{
 		sum = sum + numbers[i];
 	}
 
-	double avg = sum / arrayNumberSize;
+	double avg = sum * 1.0 / arrayNumberSize;
 
+	cout << "Suma wynosi: " << sum << "\n";
 	cout << "Średnia to: " << avg << "\n";
 }
 
