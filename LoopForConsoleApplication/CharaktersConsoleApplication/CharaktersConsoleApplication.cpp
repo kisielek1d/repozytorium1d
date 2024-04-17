@@ -1,18 +1,20 @@
-﻿﻿// CharactersConsoleApplication.cpp 
+﻿// CharactersConsoleApplication.cpp 
 #include <iostream>
+  
+using namespace std;
 
 //Napisz program który pobierze znak od użytkownika i wyświeli go.
 void task1()
 {
 	char characterFromUser;
-	std::cout << "Podaj jeden znak:\n";
-	std::cin >> characterFromUser;
+	cout << "Podaj jeden znak:\n";
+	cin >> characterFromUser;
 
-	std::cout << "Podano: " << characterFromUser << "\n";
+	cout << "Podano: " << characterFromUser << "\n";
 
 	characterFromUser = characterFromUser + 1;
 
-	std::cout << "Podano: " << characterFromUser << "\n";
+	cout << "Podano: " << characterFromUser << "\n";
 
 	characterFromUser = 97;
 	characterFromUser = 'a';
@@ -23,55 +25,55 @@ void task1()
 void task2()
 {
 	char characterFromUser;
-	std::cout << "Podaj jeden znak:\n";
-	std::cin >> characterFromUser;
+	cout << "Podaj jeden znak:\n";
+	cin >> characterFromUser;
 
 	//wersja 1
 	if (characterFromUser == 'a'
 		|| characterFromUser == 'b'
 		|| characterFromUser == 'c'
 		|| characterFromUser == 'd'
-		//...
+		//... 
 		|| characterFromUser == 'z')
 	{
-		std::cout << "Podałes małą literę alfabetu\n";
+		cout << "Podałes małą literę alfabetu\n";
 	}
 	else
 	{
-		std::cout << "Podałeś inny znak\n";
+		cout << "Podałeś inny znak\n";
 	}
 
 	//wersja 2
 	if (characterFromUser >= 97
 		&& characterFromUser <= 122)
 	{
-		std::cout << "Podałes małą literę alfabetu\n";
+		cout << "Podałes małą literę alfabetu\n";
 	}
 	else
 	{
-		std::cout << "Podałeś inny znak\n";
+		cout << "Podałeś inny znak\n";
 	}
 
 	//wersja 3
 	if (characterFromUser >= 'a'
 		&& characterFromUser <= 'z')
 	{
-		std::cout << "Podałes małą literę alfabetu\n";
+		cout << "Podałes małą literę alfabetu\n";
 	}
 	else
 	{
-		std::cout << "Podałeś inny znak\n";
+		cout << "Podałeś inny znak\n";
 	}
 }
 
 //Napisz program, który poprosi cie o twoje imię i cię przywita.
 void task3()
 {
-	std::string userName;
-	std::cout << "Podaj swoje imię\n";
-	std::cin >> userName;
+	string userName;
+	cout << "Podaj swoje imię\n";
+	cin >> userName;
 
-	std::cout << "Witaj " << userName << " tutaj.\n";
+	cout << "Witaj " << userName << " tutaj.\n";
 
 	userName = "To jest nowy tekst";
 }
@@ -82,31 +84,31 @@ void task3()
 //  jeśli jest inne, powinien wyświetlić "hasło niepoprawne").
 void task4()
 {
-	std::string password;
-	std::cout << "Podaj hasło\n";
-	std::cin >> password;
+	string password;
+	cout << "Podaj hasło\n";
+	cin >> password;
 
 	if (password == "abc123")
 	{
-		std::cout << "Hasło poprawne\n";
+		cout << "Hasło poprawne\n";
 	}
 	else
-		std::cout << "Hasło niepoprawne\n";
+		cout << "Hasło niepoprawne\n";
 }
 
 //Napisz program, który wczyta łańcuch znaków i policzy ile jest małych liter 'a'.
 void task5()
 {
-	std::string textFromUser = "dfsdfg";
-	std::cout << "Podaj tekst\n";
-	std::cin >> textFromUser;
+	string textFromUser = "dfsdfg";
+	cout << "Podaj tekst\n";
+	cin >> textFromUser;
 
-	std::cout << "Podany tekst: " << textFromUser << "\n";
-	std::cout << "Pierwszy znak w tekście: " << textFromUser[0] << "\n";
-	std::cout << "Drugi znak w tekście: " << textFromUser[1] << "\n";
+	cout << "Podany tekst: " << textFromUser << "\n";
+	 cout << "Pierwszy znak w tekście: " << textFromUser[0] << "\n";
+	cout << "Drugi znak w tekście: " << textFromUser[1] << "\n";
 	int length = textFromUser.length();
-	std::cout << "Długość łańcucha znaków: " << length << "\n";
-	std::cout << "Ostatni znak w tekście: " << textFromUser[length - 1] << "\n";
+	cout << "Długość łańcucha znaków: " << length << "\n";
+	cout << "Ostatni znak w tekście: " << textFromUser[length - 1] << "\n";
 
 	int counter = 0;
 	for (int i = 0; i < length; i++)
@@ -122,11 +124,11 @@ void task5()
 // Nie przepuści dalej dopóki nie zostanie ono podane prawidłowo.
 void task6()
 {
-	std::string password;
+	string password;
 	do
 	{
-		std::cout << "Podaj hasło\n";
-		std::cin >> password;
+		cout << "Podaj hasło\n";
+		cin >> password;
 	} while (password != "abc123");
 }
 
@@ -134,11 +136,9 @@ void task6()
 // i wyświetla liczbę samogłosek i spółgłosek w tym ciągu.
 void task7()
 {
-	std::string textFromUser;
-	std::cout << "Podaj tekst\n";
-	std::cin >> textFromUser;
-
-
+	string textFromUser;
+	cout << "Podaj tekst\n";
+	cin >> textFromUser;
 }
 
 //Poproś użytkownika o wprowadzenie liczby całkowitej w systemie dziesiętnym. 
@@ -146,11 +146,11 @@ void task7()
 void task8()
 {
 	int number = 14 + 7;
-	std::cout << "Podaj liczbę:\n";
-	std::cin >> number;
+	cout << "Podaj liczbę:\n";
+	cin >> number;
 
 	int tmpNumber = number;
-	std::string binNumber = "";
+	string binNumber = "";
 
 	do
 	{
@@ -163,7 +163,7 @@ void task8()
 
 	} while (tmpNumber != 0);
 
-	std::cout << "Liczba " << number << " binarnie to " << binNumber << "\n";
+	cout << "Liczba " << number << " binarnie to " << binNumber << "\n";
 }
 
 //Program sprawdzający czy podany ciąg znaków jest palindromem 
@@ -171,9 +171,9 @@ void task8()
 
 void task9()
 {
-	std::string textFromUser;
-	std::cout << "Podaj tekst\n";
-	std::cin >> textFromUser;
+	string textFromUser;
+	cout << "Podaj tekst\n";
+	cin >> textFromUser;
 
 	bool isPalindrome = true;
 
@@ -188,15 +188,16 @@ void task9()
 	}
 
 	if (isPalindrome == true)
-		std::cout << "Ten wyraz jest palindromem\n";
+		cout << "Ten wyraz jest palindromem\n";
 	else
-		std::cout << "Ten wyraz nie jest palindromem\n";
+		cout << "Ten wyraz nie jest palindromem\n";
 }
 
 //Napisz program który wczyta np 5 liczb a nastepnie wyświetli je w odwrotnej kolejnosci
 
 void task10()
 {
+	/*
 	int number1, number2, number3, number4;
 
 	cout << "Podaj 1 liczbę \n";
@@ -207,21 +208,62 @@ void task10()
 	cin >> number3;
 	cout << "Podaj 4 liczbę \n";
 	cin >> number4;
-	
-	for (int i = 1; i < 5; i++)
+
+	*/
+
+	const unsigned int arrayNumberSize = 5;
+	int numbers[arrayNumberSize];
+
+	for (int i = 0; i < arrayNumberSize; i++)
 	{
-		cout << "podaj " << i << " liczbe\n";
-		cin >> (number + 1);
+		cout << "Podaj " << (i + 1) << " liczbe\n";
+		cin >> numbers[i];
 	}
+
+	for (int i = arrayNumberSize - 1; i >= 0; i--)
+	{
+		cout << numbers[i] << ", ";
+	}
+
+	cout << "\n";
+}
+
+
+void task11()
+{
+	const unsigned int arrayNumberSize = 5;
+	int numbers[arrayNumberSize];
+
+
+	srand(time(NULL));
+	for (int i = 0; i < arrayNumberSize; i++)
+	{
+		numbers[i] = rand() % 11;
+		cout << numbers[i] << ", ";
+	}
+	cout << "\n\n";
+
+	//licze srednia
+
+	int sum = 1;
+
+	for (int i = 0; i < arrayNumberSize; i++)
+	{
+		sum = sum + numbers[i];
+	}
+
+	double avg = sum / arrayNumberSize;
+
+	cout << "Średnia to: " << avg << "\n";
 }
 
 /*
-*  Program sprawdzający czy podane dwa słowa są anagramami (czyli takimi, które zawierają te same litery, ale w innym układzie, np. "klasa" i "salka")
+* Program sprawdzający czy podane dwa słowa są anagramami (czyli takimi, które zawierają te same litery, ale w innym układzie, np. "klasa" i "salka")
 * Program wyciągający informacje z numeru PESEL
 * Program implementujący algorytm szyfrowania Cezara (proste szyfrowanie, w którym każdy znak w tekście jest zastępowany innym znakiem, przesuniętym o stałą liczbę pozycji w alfabecie).*/
 
 int main()
 {
 	setlocale(LC_CTYPE, "polish");
-	task8();
+	task11();
 }

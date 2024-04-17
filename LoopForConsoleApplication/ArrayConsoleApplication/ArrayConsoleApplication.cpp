@@ -7,7 +7,7 @@ namespace using std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    setlocale(LC_CTYPE "polish")
 }
 
 
