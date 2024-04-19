@@ -102,13 +102,35 @@ void task3()
 	cout << "Najmniejsza liczba to: " << min << "\n";
 }
 
+//napisz program ktory wczyta numer dnia tygodnia a nastepnie wyswietli nazwe tego dnia lub komunikat b³edu
+
 void task4()
 {
+	int dayNumberFromUser;
+	cout << "Podaj numer dnia tygodnia: \n";
+	cin >> dayNumberFromUser;
 
+	string nameOfDay[7];
+	nameOfDay[0] = "poniedzia³ek";
+	nameOfDay[1] = "wtorek";
+	nameOfDay[2] = "œroda";
+	nameOfDay[3] = "czwartek";
+	nameOfDay[4] = "pi¹tek";
+	nameOfDay[5] = "sobota";
+	nameOfDay[6] = "niedziela";
+	
+	if (dayNumberFromUser >= 0 && dayNumberFromUser <= 6)
+	{
+		cout << "Nazwa dnia to " << dayNumberFromUser[nameOfDay] << "\n";
+	}
+	else
+	{
+		cout << "Nie ma takiego dnia";
+	}
 }
 
 int main()
 {
     setlocale(LC_CTYPE, "polish");
-	task3();
+	task4();
 }
