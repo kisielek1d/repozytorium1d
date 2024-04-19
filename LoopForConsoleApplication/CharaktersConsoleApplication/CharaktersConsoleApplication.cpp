@@ -258,6 +258,31 @@ void task11()
 	cout << "Średnia to: " << avg << "\n";
 }
 
+//Napisz program który uzupełni tablice liczbami losowymi. A nastepnie znajdzie minimum i maksimum.
+
+void task12()
+{
+	const unsigned int arrayNumberSize = 5;
+	int numbers[arrayNumberSize];
+
+
+	srand(time(NULL));
+	for (int i = 0; i < arrayNumberSize; i++)
+	{
+		numbers[i] = rand() % 11 - 2000;
+		cout << numbers[i] << ", ";
+	}
+	cout << "\n\n";
+
+	int max = numbers[???];
+	for (int i = 0; i < arrayNumberSize; i++)
+	{
+		if (numbers[i] > max)
+			max = numbers[i];
+	}
+	cout << "Najwieksza liczba to: " << max << "\n";
+}
+
 /*
 * Program sprawdzający czy podane dwa słowa są anagramami (czyli takimi, które zawierają te same litery, ale w innym układzie, np. "klasa" i "salka")
 * Program wyciągający informacje z numeru PESEL
@@ -266,5 +291,5 @@ void task11()
 int main()
 {
 	setlocale(LC_CTYPE, "polish");
-	task11();
+	task12();
 }
