@@ -274,7 +274,7 @@ void task12()
 	}
 	cout << "\n\n";
 
-	int max = numbers[???];
+	int max = numbers[0];
 	for (int i = 0; i < arrayNumberSize; i++)
 	{
 		if (numbers[i] > max)
