@@ -121,7 +121,7 @@ void task4()
 	
 	if (dayNumberFromUser >= 0 && dayNumberFromUser <= 6)
 	{
-		cout << "Nazwa dnia to " << dayNumberFromUser[nameOfDay] << "\n";
+		cout << "Nazwa dnia to " << dayNumberFromUser[nameOfDay ] << "\n";
 	}
 	else
 	{
@@ -129,8 +129,82 @@ void task4()
 	}
 }
 
+//sortowanie tablicy przez wybór
+
+void task5()
+{
+	const unsigned int ARRAY_NUMBERS_SIZE = 10;
+	int numbers[ARRAY_NUMBERS_SIZE];
+
+	srand(time(NULL));
+	cout << "Liczby w kolekcji:\n";
+	for (int i = 0; i < ARRAY_NUMBERS_SIZE; i++)
+	{
+		numbers[i] = rand() % 100;
+		cout << numbers[i] << ", ";
+	}
+	cout << "\n\n";
+
+	//algorytm sortuj¹cy
+	for (int i = 0; i <= ARRAY_NUMBERS_SIZE - 2; i++)
+	{
+		int minIndex = i;
+		for (int j = i + 1; j < ARRAY_NUMBERS_SIZE; j++)
+		{
+			if (numbers[j] < numbers[minIndex])
+				minIndex = j;
+		}
+		int tmp = numbers[i];
+		numbers[i] = numbers[minIndex];
+		numbers[minIndex] = tmp;
+	}
+
+	cout << "Po posortowaniu:\n";
+	for (int i = 0; i < ARRAY_NUMBERS_SIZE; i++)
+	{
+		cout << numbers[i] << ", ";
+	}
+	cout << "\n\n";
+}
+
+void task6()
+{
+	const unsigned int ARRAY_NUMBERS_SIZE = 10;
+	int numbers[ARRAY_NUMBERS_SIZE];
+
+	srand(time(NULL));
+	cout << "Liczby w kolekcji:\n";
+	for (int i = 0; i < ARRAY_NUMBERS_SIZE; i++)
+	{
+		numbers[i] = rand() % 100;
+		cout << numbers[i] << ", ";
+	}
+	cout << "\n\n";
+
+	//algorytm sortuj¹cy (b¹belkowy)
+	
+	for (int i = 0; i < ARRAY_NUMBERS_SIZE - 1; i++)
+	{
+		for (int j = 0; j < ARRAY_NUMBERS_SIZE - 1; j++)
+		{
+			if (numbers[j] > numbers[j + 1])
+			{
+				int tmp = numbers[j];
+				numbers[j] = numbers[j + 1];
+				numbers[j + 1] = tmp;
+			}
+		}
+	}
+
+	cout << "Po posortowaniu:\n";
+	for (int i = 0; i < ARRAY_NUMBERS_SIZE; i++)
+	{
+		cout << numbers[i] << ", ";
+	}
+	cout << "\n\n";
+
 int main()
 {
     setlocale(LC_CTYPE, "polish");
-	task4();
+	task6();
 }
