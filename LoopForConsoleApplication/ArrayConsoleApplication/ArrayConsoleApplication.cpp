@@ -182,7 +182,7 @@ void task6()
 	cout << "\n\n";
 
 	//algorytm sortuj¹cy (b¹belkowy)
-	
+
 	for (int i = 0; i < ARRAY_NUMBERS_SIZE - 1; i++)
 	{
 		for (int j = 0; j < ARRAY_NUMBERS_SIZE - 1; j++)
@@ -202,9 +202,41 @@ void task6()
 		cout << numbers[i] << ", ";
 	}
 	cout << "\n\n";
+}
+
+//Napisz program który wyznaczy wszystkie liczby pierwsze od 2 do zadeklarowanego zakresu. Metoda sito Eratostenesa
+void task7()
+{
+	const int ARRAY_NUMBER_SIZE = 50;
+	bool sieve[ARRAY_NUMBER_SIZE];
+	for (int i = 2; i < ARRAY_NUMBER_SIZE; i++)
+	{
+		sieve[i] = true;
+	}
+
+	for (int i = 2; i < ARRAY_NUMBER_SIZE; i++)
+	{
+		if (sieve[i]/* == true*/)
+		{
+			for (int j = i + i; j < ARRAY_NUMBER_SIZE; j = j + i)
+			{
+				sieve[j] = false;
+			}
+		}
+	}
+
+	cout << "liczby pierwsze:\n";
+	for (int i = 2; i < ARRAY_NUMBER_SIZE; i++)
+	{
+		if (sieve[i]/*== true*/)
+		{
+			cout << i << ", ";
+		}
+	}
+}
 
 int main()
 {
     setlocale(LC_CTYPE, "polish");
-	task6();
+	task7();
 }
