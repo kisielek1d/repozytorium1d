@@ -4,6 +4,13 @@
 
 using namespace std;
 
+/*
+DRY - dont repeat yourself
+KISS - kept in simple, stupid
+YAGNI - you aren't gonna need it
+*/
+
+
 void task1()
 {
 	/*

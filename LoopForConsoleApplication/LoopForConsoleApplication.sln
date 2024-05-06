@@ -11,6 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CharaktersConsoleApplicatio
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrayConsoleApplication", "ArrayConsoleApplication\ArrayConsoleApplication.vcxproj", "{604ED4B6-F630-415B-BD5E-79102BB19409}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. funkcje", "04. funkcje", "{F13FD8F9-890C-4E82-957A-ACAF4445A2FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FunctionConsoleApplication", "FunctionConsoleApplication\FunctionConsoleApplication.vcxproj", "{51AE4555-280F-40E7-A3C5-1E8A294314E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -43,12 +47,21 @@ Global
 		{604ED4B6-F630-415B-BD5E-79102BB19409}.Release|x64.Build.0 = Release|x64
 		{604ED4B6-F630-415B-BD5E-79102BB19409}.Release|x86.ActiveCfg = Release|Win32
 		{604ED4B6-F630-415B-BD5E-79102BB19409}.Release|x86.Build.0 = Release|Win32
+		{51AE4555-280F-40E7-A3C5-1E8A294314E8}.Debug|x64.ActiveCfg = Debug|x64
+		{51AE4555-280F-40E7-A3C5-1E8A294314E8}.Debug|x64.Build.0 = Debug|x64
+		{51AE4555-280F-40E7-A3C5-1E8A294314E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{51AE4555-280F-40E7-A3C5-1E8A294314E8}.Debug|x86.Build.0 = Debug|Win32
+		{51AE4555-280F-40E7-A3C5-1E8A294314E8}.Release|x64.ActiveCfg = Release|x64
+		{51AE4555-280F-40E7-A3C5-1E8A294314E8}.Release|x64.Build.0 = Release|x64
+		{51AE4555-280F-40E7-A3C5-1E8A294314E8}.Release|x86.ActiveCfg = Release|Win32
+		{51AE4555-280F-40E7-A3C5-1E8A294314E8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A3D74681-D6B6-4B20-8D8C-B82226EA818C} = {9CBB7DEE-04CF-48C4-BCF4-504464FE8223}
+		{51AE4555-280F-40E7-A3C5-1E8A294314E8} = {F13FD8F9-890C-4E82-957A-ACAF4445A2FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CDE650E0-F01F-4168-9F30-D54371DFBFE0}
