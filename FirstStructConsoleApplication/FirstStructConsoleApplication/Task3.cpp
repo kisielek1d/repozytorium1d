@@ -46,4 +46,7 @@ void task3()
 	secondAccount.owner = "Ewa Nowak";
 
 	accountInformation(secondAccount);
+
+	depositToAccount(firstAccount, -14, 50);
+	accountInformation(firstAccount);
 }
