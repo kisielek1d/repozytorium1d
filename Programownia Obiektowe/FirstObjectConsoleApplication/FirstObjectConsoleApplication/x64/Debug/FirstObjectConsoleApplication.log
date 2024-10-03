@@ -1,0 +1,6 @@
+﻿  FirstObjectConsoleApplication.cpp
+C:\F.C\repozytorium1d\Programownia Obiektowe\FirstObjectConsoleApplication\FirstObjectConsoleApplication\FirstObjectConsoleApplication.cpp(17,16): warning C4566: character represented by universal-character-name '\u00B3' cannot be represented in the current code page (1250)
+C:\F.C\repozytorium1d\Programownia Obiektowe\FirstObjectConsoleApplication\FirstObjectConsoleApplication\FirstObjectConsoleApplication.cpp(17,16): warning C4566: character represented by universal-character-name '\u0153' cannot be represented in the current code page (1250)
+C:\F.C\repozytorium1d\Programownia Obiektowe\FirstObjectConsoleApplication\FirstObjectConsoleApplication\FirstObjectConsoleApplication.cpp(48,26): warning C4566: character represented by universal-character-name '\u00B3' cannot be represented in the current code page (1250)
+C:\F.C\repozytorium1d\Programownia Obiektowe\FirstObjectConsoleApplication\FirstObjectConsoleApplication\FirstObjectConsoleApplication.cpp(55,27): warning C4566: character represented by universal-character-name '\u00B3' cannot be represented in the current code page (1250)
+  FirstObjectConsoleApplication.vcxproj -> C:\F.C\repozytorium1d\Programownia Obiektowe\FirstObjectConsoleApplication\x64\Debug\FirstObjectConsoleApplication.exe

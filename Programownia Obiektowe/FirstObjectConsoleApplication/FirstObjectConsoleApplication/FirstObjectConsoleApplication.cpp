@@ -2,28 +2,29 @@
 #include<iostream>
 
 
-struct bankAccount
+class BankAccount
 {
+public:
 	double balance; // saldo
 	std::string owner; //właciciel
 	std::string currency; //waluta
 
+
+
+	void AccountInformation()
+	{
+		std::cout << "Informacja o koncie bankowym.\n";
+		std::cout << "W³aœciciel: " << owner << "\n";
+		std::cout << "Saldo: " << balance << " " << currency << "\n";
+	}
 };
-
-void accountInformation(bankAccount& account)
-{
-	std::cout << "Informacja o koncie bankowym.\n";
-	std::cout << "W³aœciciel: " << account.owner << "\n";
-	std::cout << "Saldo: " << account.balance << " " << account.currency << "\n";
-}
-
-void depositToAccount(bankAccount& account, double amount)
+void depositToAccount(BankAccount& account, double amount)
 {
 	amount = abs(amount);
 	account.balance = account.balance + amount;
 }
 
-bool widthdrawalFromAccount(bankAccount& account, double amount)
+bool widthdrawalFromAccount(BankAccount& account, double amount)
 {
 	amount = abs(amount);
 	if (account.balance - amount >= 0)
@@ -34,7 +35,7 @@ bool widthdrawalFromAccount(bankAccount& account, double amount)
 	return false;
 }
 
-void transferBetweenAcounts(bankAccount& sourceAccount, bankAccount& targetAccount, double amount)
+void transferBetweenAcounts(BankAccount& sourceAccount, BankAccount& targetAccount, double amount)
 {
 	if (widthdrawalFromAccount(sourceAccount, amount) == true)
 		depositToAccount(targetAccount, amount);
@@ -42,29 +43,29 @@ void transferBetweenAcounts(bankAccount& sourceAccount, bankAccount& targetAccou
 
 void task3()
 {
-	bankAccount firstAccount;
+	BankAccount firstAccount;
 	firstAccount.balance = 10000;
 	firstAccount.currency = "z³";
 	firstAccount.owner = "Jan Kowalski";
 
-	accountInformation(firstAccount);
+	firstAccount.AccountInformation();
 
-	bankAccount secondAccount;
+	BankAccount secondAccount;
 	secondAccount.balance = 15000;
 	secondAccount.currency = "z³";
 	secondAccount.owner = "Ewa Nowak";
 
-	accountInformation(secondAccount);
+	secondAccount.AccountInformation();
 
 	depositToAccount(firstAccount, -14.50);
-	accountInformation(firstAccount);
+	firstAccount.AccountInformation();
 
 	widthdrawalFromAccount(firstAccount, 14.50);
-	accountInformation(firstAccount);
+	firstAccount.AccountInformation();
 
 	transferBetweenAcounts(secondAccount, firstAccount, 1000);
-	accountInformation(firstAccount);
-	accountInformation(secondAccount);
+	firstAccount.AccountInformation();
+	secondAccount.AccountInformation();
 }
 
 int main()
