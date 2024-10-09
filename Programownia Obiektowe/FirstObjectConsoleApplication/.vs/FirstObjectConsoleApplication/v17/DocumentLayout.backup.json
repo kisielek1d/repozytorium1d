@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36810233-37EE-4CDC-9375-ABD01C67D695}|FirstObjectConsoleApplication\\FirstObjectConsoleApplication.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{36810233-37EE-4CDC-9375-ABD01C67D695}|FirstObjectConsoleApplication\\FirstObjectConsoleApplication.vcxproj|solutionrelative:FirstObjectConsoleApplication\\FirstObjectConsoleApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7F01BC93-E1F7-469E-AB5D-B94ACDF51CCE}|ReadAndWriteOnFilesConsoleApplication\\ReadAndWriteOnFilesConsoleApplication.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\ReadAndWriteOnFilesConsoleApplication\\ReadAndWriteOnFilesConsoleApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7F01BC93-E1F7-469E-AB5D-B94ACDF51CCE}|ReadAndWriteOnFilesConsoleApplication\\ReadAndWriteOnFilesConsoleApplication.vcxproj|solutionrelative:ReadAndWriteOnFilesConsoleApplication\\ReadAndWriteOnFilesConsoleApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FirstObjectConsoleApplication.cpp",
-              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication.cpp",
-              "RelativeDocumentMoniker": "FirstObjectConsoleApplication\\FirstObjectConsoleApplication.cpp",
-              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication.cpp*",
-              "RelativeToolTip": "FirstObjectConsoleApplication\\FirstObjectConsoleApplication.cpp*",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAADwAAAAhAAAAAAAAAA==",
+              "Title": "ReadAndWriteOnFilesConsoleApplication.cpp",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\ReadAndWriteOnFilesConsoleApplication\\ReadAndWriteOnFilesConsoleApplication.cpp",
+              "RelativeDocumentMoniker": "ReadAndWriteOnFilesConsoleApplication\\ReadAndWriteOnFilesConsoleApplication.cpp",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\ReadAndWriteOnFilesConsoleApplication\\ReadAndWriteOnFilesConsoleApplication.cpp*",
+              "RelativeToolTip": "ReadAndWriteOnFilesConsoleApplication\\ReadAndWriteOnFilesConsoleApplication.cpp*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-02T06:42:23.801Z",
+              "WhenOpened": "2024-10-09T06:48:58.619Z",
               "EditorCaption": ""
             }
           ]
