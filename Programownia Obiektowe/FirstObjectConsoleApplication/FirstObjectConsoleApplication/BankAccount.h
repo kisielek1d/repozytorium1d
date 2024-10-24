@@ -3,10 +3,13 @@
 
 class BankAccount
 {
-public:
+private:
+
 	double balance; // saldo
 	std::string owner; //w³aœciciel
 	std::string currency; //waluta
+
+public:
 
 	void AccountInformation();
 

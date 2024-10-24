@@ -5,4 +5,4 @@ C:\F.C\repozytorium1d\Programownia Obiektowe\FirstObjectConsoleApplication\First
 C:\F.C\repozytorium1d\Programownia Obiektowe\FirstObjectConsoleApplication\FirstObjectConsoleApplication\FirstObjectConsoleApplication.cpp(23,26): warning C4566: character represented by universal-character-name '\u00B3' cannot be represented in the current code page (1250)
 C:\F.C\repozytorium1d\Programownia Obiektowe\FirstObjectConsoleApplication\FirstObjectConsoleApplication\FirstObjectConsoleApplication.cpp(31,27): warning C4566: character represented by universal-character-name '\u00B3' cannot be represented in the current code page (1250)
   Generating Code...
-LINK : fatal error LNK1104: cannot open file 'C:\F.C\repozytorium1d\Programownia Obiektowe\FirstObjectConsoleApplication\x64\Debug\FirstObjectConsoleApplication.exe'
+  FirstObjectConsoleApplication.vcxproj -> C:\F.C\repozytorium1d\Programownia Obiektowe\FirstObjectConsoleApplication\x64\Debug\FirstObjectConsoleApplication.exe
