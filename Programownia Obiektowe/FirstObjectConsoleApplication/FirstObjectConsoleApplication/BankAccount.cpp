@@ -1,6 +1,12 @@
 ﻿#include <iostream>
 #include "BankAccount.h"
 
+void BankAccount::SetBalance(double b)
+{
+	if (b >= 0)
+		balance = b;
+}
+
 void  BankAccount::AccountInformation()
 {
 	std::cout << "Informacja o koncie bankowym.\n";
@@ -30,4 +36,11 @@ void BankAccount::TransferBetweenAcounts(BankAccount& targetAccount, double amou
 {
 	if (WidthdrawalFromAccount(amount) == true)
 		targetAccount.DepositToAccount(amount);
+}
+
+BankAccount::BankAccount()
+{
+	balance = 0;
+	owner = "Nieznany";
+	currency = "zł";
 }

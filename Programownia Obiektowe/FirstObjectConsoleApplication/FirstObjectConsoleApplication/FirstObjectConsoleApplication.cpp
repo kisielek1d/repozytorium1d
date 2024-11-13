@@ -3,6 +3,7 @@
 class BankAccount
 {
 public:
+
 	double balance; // saldo
 	std::string owner; //w³aœciciel
 	std::string currency; //waluta
@@ -18,18 +19,18 @@ public:
 
 int main()
 {
-	BankAccount firstAccount;
-	firstAccount.balance = 10000;
-	firstAccount.currency = "z³";
-	firstAccount.owner = "Jan Kowalski";
+	BankAccount firstAccount(10000, "Jan Kowalski", "zł");
+	//firstAccount.balance = 10000;
+	//firstAccount.currency = "z³";
+	//firstAccount.owner = "Jan Kowalski";
 
 	firstAccount.AccountInformation();
 	//accountInformation(firstAccount);
 
-	BankAccount secondAccount;
-	secondAccount.balance = 15000;
-	secondAccount.currency = "z³";
-	secondAccount.owner = "Ewa Nowak";
+	BankAccount secondAccount(15000, "Ewa Nowak", "zł");
+	//secondAccount.balance = 15000;
+	//secondAccount.currency = "z³";
+	//secondAccount.owner = "Ewa Nowak";
 
 	secondAccount.AccountInformation();
 

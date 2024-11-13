@@ -1,6 +1,2 @@
 ﻿  StringConsoleApplication.cpp
-C:\F.C\repozytorium1d\Programownia Obiektowe\StringConsoleApplication\StringConsoleApplication\StringConsoleApplication.cpp(7,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\F.C\repozytorium1d\Programownia Obiektowe\StringConsoleApplication\StringConsoleApplication\StringConsoleApplication.cpp(7,1): error C2365: 'setlocale': redefinition; previous definition was 'function'
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\locale.h(97,28):
-      see declaration of 'setlocale'
-  
+  StringConsoleApplication.vcxproj -> C:\F.C\repozytorium1d\Programownia Obiektowe\StringConsoleApplication\x64\Debug\StringConsoleApplication.exe

@@ -22,7 +22,8 @@ int main()
     text.replace(0, 3, "Ola");
     cout << "tekst po zmianie: " << text << "\n";
 
-    text.insert(3, "nie");
+    text.insert(3, " nie");
     cout << "tekst po zmianie: " << text << "\n";
 }
+
 
