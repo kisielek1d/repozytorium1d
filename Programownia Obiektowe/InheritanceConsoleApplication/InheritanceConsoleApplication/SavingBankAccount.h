@@ -4,23 +4,29 @@ class SavingBankAccount : public BankAccount
 {
 private:
 
-	double interestRate;
+	double interestRate; //oprocentowanie
 
 public:
-	
-	SavingBankAccount()
+
+	SavingBankAccount() //: BankAccount()
 	{
 		interestRate = 0.05;
 	}
 
-	SavingBankAccount(double b, string o, string c, double ir)
+	SavingBankAccount(double b, std::string o, std::string c, double ir)
+		: BankAccount(b, o, c)
 	{
 		interestRate = ir;
 	}
 
 	void CalculateInterestRate()
 	{
-		b = b + b * ir;
+		balance = balance + balance * interestRate;
 	}
 
+	void AccountInformation()
+	{
+		BankAccount::AccountInformation();
+		std::cout << "Oprocentowanie: " << interestRate << "\n";
+	}
 };

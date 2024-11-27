@@ -1,12 +1,9 @@
 ﻿#pragma once
 #include <iostream>
 
-using namespace std;
-
 class BankAccount
 {
-private:
-	 
+protected:
 	double balance; // saldo
 	std::string owner; //w³aœciciel
 	std::string currency; //waluta
@@ -16,21 +13,13 @@ private:
 public:
 
 	BankAccount();
-
-	BankAccount(double b, string o, string c)
-	{
-		balance = b;
-		owner = o;
-		currency = c;
-	}
+	BankAccount(double b, std::string o, std::string c);
 
 	double GetBalance();
 
 	void AccountInformation();
 
 	void DepositToAccount(double amount);
-
 	bool WidthdrawalFromAccount(double amount);
-
 	void TransferBetweenAcounts(BankAccount& targetAccount, double amount);
 };
