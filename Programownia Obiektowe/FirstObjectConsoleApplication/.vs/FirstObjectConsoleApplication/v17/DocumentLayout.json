@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36810233-37EE-4CDC-9375-ABD01C67D695}|FirstObjectConsoleApplication\\FirstObjectConsoleApplication.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\SavingBankAccount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36810233-37EE-4CDC-9375-ABD01C67D695}|FirstObjectConsoleApplication\\FirstObjectConsoleApplication.vcxproj|solutionrelative:FirstObjectConsoleApplication\\SavingBankAccount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36810233-37EE-4CDC-9375-ABD01C67D695}|FirstObjectConsoleApplication\\FirstObjectConsoleApplication.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\SavingBankAccount.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36810233-37EE-4CDC-9375-ABD01C67D695}|FirstObjectConsoleApplication\\FirstObjectConsoleApplication.vcxproj|solutionrelative:FirstObjectConsoleApplication\\SavingBankAccount.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36810233-37EE-4CDC-9375-ABD01C67D695}|FirstObjectConsoleApplication\\FirstObjectConsoleApplication.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\BankAccount.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{36810233-37EE-4CDC-9375-ABD01C67D695}|FirstObjectConsoleApplication\\FirstObjectConsoleApplication.vcxproj|solutionrelative:FirstObjectConsoleApplication\\BankAccount.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -27,41 +35,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SavingBankAccount.h",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\SavingBankAccount.h",
+              "RelativeDocumentMoniker": "FirstObjectConsoleApplication\\SavingBankAccount.h",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\SavingBankAccount.h",
+              "RelativeToolTip": "FirstObjectConsoleApplication\\SavingBankAccount.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-20T06:55:35.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SavingBankAccount.cpp",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\SavingBankAccount.cpp",
+              "RelativeDocumentMoniker": "FirstObjectConsoleApplication\\SavingBankAccount.cpp",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\SavingBankAccount.cpp",
+              "RelativeToolTip": "FirstObjectConsoleApplication\\SavingBankAccount.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-20T06:55:02.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BankAccount.cpp",
               "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\BankAccount.cpp",
               "RelativeDocumentMoniker": "FirstObjectConsoleApplication\\BankAccount.cpp",
               "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\BankAccount.cpp",
               "RelativeToolTip": "FirstObjectConsoleApplication\\BankAccount.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAhwCgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-24T05:39:23.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BankAccount.h",
               "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\BankAccount.h",
               "RelativeDocumentMoniker": "FirstObjectConsoleApplication\\BankAccount.h",
               "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\BankAccount.h",
               "RelativeToolTip": "FirstObjectConsoleApplication\\BankAccount.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-24T05:39:21.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T05:39:21.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FirstObjectConsoleApplication.cpp",
               "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication.cpp",
               "RelativeDocumentMoniker": "FirstObjectConsoleApplication\\FirstObjectConsoleApplication.cpp",
               "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication\\FirstObjectConsoleApplication.cpp",
               "RelativeToolTip": "FirstObjectConsoleApplication\\FirstObjectConsoleApplication.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-11T08:20:08.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T08:20:08.6Z"
             }
           ]
         }
