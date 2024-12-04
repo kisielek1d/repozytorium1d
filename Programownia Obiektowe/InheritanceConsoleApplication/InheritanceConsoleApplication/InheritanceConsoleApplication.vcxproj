@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="BankAccount.cpp" />
     <ClCompile Include="InheritanceConsoleApplication.cpp" />
+    <ClCompile Include="SavingBankAccount.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BankAccount.h" />
+    <ClInclude Include="SavingBankAccount.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
