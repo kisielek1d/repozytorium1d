@@ -1,0 +1,14 @@
+﻿  Rectangle.cpp
+C:\Users\Sala213\source\repos\coscoscos\coscoscos\Rectangle.cpp(11,15): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1250)
+  coscoscos.cpp
+  square.cpp
+  trapeze.cpp
+C:\Users\Sala213\source\repos\coscoscos\coscoscos\trapeze.cpp(14,15): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1250)
+C:\Users\Sala213\source\repos\coscoscos\coscoscos\trapeze.cpp(26,9): error C2065: 'a': undeclared identifier
+C:\Users\Sala213\source\repos\coscoscos\coscoscos\trapeze.cpp(26,13): error C2065: 'b': undeclared identifier
+C:\Users\Sala213\source\repos\coscoscos\coscoscos\trapeze.cpp(26,17): error C2065: 'c': undeclared identifier
+C:\Users\Sala213\source\repos\coscoscos\coscoscos\trapeze.cpp(26,21): error C2065: 'd': undeclared identifier
+C:\Users\Sala213\source\repos\coscoscos\coscoscos\trapeze.cpp(31,10): error C2065: 'a': undeclared identifier
+C:\Users\Sala213\source\repos\coscoscos\coscoscos\trapeze.cpp(31,14): error C2065: 'b': undeclared identifier
+C:\Users\Sala213\source\repos\coscoscos\coscoscos\trapeze.cpp(31,23): error C2065: 'h': undeclared identifier
+  Generating Code...
