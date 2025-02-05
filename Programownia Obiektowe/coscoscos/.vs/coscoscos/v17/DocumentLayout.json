@@ -1,49 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\",
+  "WorkspaceRootPath": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\parallelogram.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|solutionrelative:coscoscos\\parallelogram.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\parallelogram.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\parallelogram.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|solutionrelative:coscoscos\\parallelogram.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\diamond.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|solutionrelative:coscoscos\\diamond.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\parallelogram.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|solutionrelative:coscoscos\\parallelogram.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\diamond.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\diamond.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|solutionrelative:coscoscos\\diamond.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\trapeze.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\diamond.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|solutionrelative:coscoscos\\diamond.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\trapeze.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|solutionrelative:coscoscos\\trapeze.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\trapeze.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\trapeze.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|solutionrelative:coscoscos\\trapeze.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\square.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\square.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|solutionrelative:coscoscos\\square.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\square.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\square.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|solutionrelative:coscoscos\\square.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\Rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\Rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|solutionrelative:coscoscos\\Rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\Rectangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\Rectangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|solutionrelative:coscoscos\\Rectangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\coscoscos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\coscoscos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C0AAC884-F96E-4923-AEB6-EC2744BF1564}|coscoscos\\coscoscos.vcxproj|solutionrelative:coscoscos\\coscoscos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -54,15 +54,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "parallelogram.cpp",
-              "DocumentMoniker": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\parallelogram.cpp",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\parallelogram.cpp",
               "RelativeDocumentMoniker": "coscoscos\\parallelogram.cpp",
-              "ToolTip": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\parallelogram.cpp",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\parallelogram.cpp",
               "RelativeToolTip": "coscoscos\\parallelogram.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -71,11 +71,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "parallelogram.h",
-              "DocumentMoniker": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\parallelogram.h",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\parallelogram.h",
               "RelativeDocumentMoniker": "coscoscos\\parallelogram.h",
-              "ToolTip": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\parallelogram.h",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\parallelogram.h",
               "RelativeToolTip": "coscoscos\\parallelogram.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -84,11 +84,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "diamond.cpp",
-              "DocumentMoniker": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\diamond.cpp",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\diamond.cpp",
               "RelativeDocumentMoniker": "coscoscos\\diamond.cpp",
-              "ToolTip": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\diamond.cpp",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\diamond.cpp",
               "RelativeToolTip": "coscoscos\\diamond.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -97,11 +97,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "diamond.h",
-              "DocumentMoniker": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\diamond.h",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\diamond.h",
               "RelativeDocumentMoniker": "coscoscos\\diamond.h",
-              "ToolTip": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\diamond.h",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\diamond.h",
               "RelativeToolTip": "coscoscos\\diamond.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -112,92 +112,85 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "trapeze.cpp",
-              "DocumentMoniker": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\trapeze.cpp",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\trapeze.cpp",
               "RelativeDocumentMoniker": "coscoscos\\trapeze.cpp",
-              "ToolTip": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\trapeze.cpp",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\trapeze.cpp",
               "RelativeToolTip": "coscoscos\\trapeze.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-04T06:47:44.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T06:47:44.205Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "trapeze.h",
-              "DocumentMoniker": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\trapeze.h",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\trapeze.h",
               "RelativeDocumentMoniker": "coscoscos\\trapeze.h",
-              "ToolTip": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\trapeze.h",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\trapeze.h",
               "RelativeToolTip": "coscoscos\\trapeze.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-04T06:47:42.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T06:47:42.325Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "square.cpp",
-              "DocumentMoniker": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\square.cpp",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\square.cpp",
               "RelativeDocumentMoniker": "coscoscos\\square.cpp",
-              "ToolTip": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\square.cpp",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\square.cpp",
               "RelativeToolTip": "coscoscos\\square.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-04T06:38:58.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T06:38:58.865Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "square.h",
-              "DocumentMoniker": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\square.h",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\square.h",
               "RelativeDocumentMoniker": "coscoscos\\square.h",
-              "ToolTip": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\square.h",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\square.h",
               "RelativeToolTip": "coscoscos\\square.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-04T06:38:45.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T06:38:45.185Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Rectangle.h",
-              "DocumentMoniker": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\Rectangle.h",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\Rectangle.h",
               "RelativeDocumentMoniker": "coscoscos\\Rectangle.h",
-              "ToolTip": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\Rectangle.h",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\Rectangle.h",
               "RelativeToolTip": "coscoscos\\Rectangle.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-04T06:42:40.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T06:42:40.248Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Rectangle.cpp",
-              "DocumentMoniker": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\Rectangle.cpp",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\Rectangle.cpp",
               "RelativeDocumentMoniker": "coscoscos\\Rectangle.cpp",
-              "ToolTip": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\Rectangle.cpp",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\Rectangle.cpp",
               "RelativeToolTip": "coscoscos\\Rectangle.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-04T06:42:38.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T06:42:38.691Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "coscoscos.cpp",
-              "DocumentMoniker": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\coscoscos.cpp",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\coscoscos.cpp",
               "RelativeDocumentMoniker": "coscoscos\\coscoscos.cpp",
-              "ToolTip": "C:\\Users\\Sala213\\source\\repos\\coscoscos\\coscoscos\\coscoscos.cpp",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\coscoscos\\coscoscos\\coscoscos.cpp",
               "RelativeToolTip": "coscoscos\\coscoscos.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-27T07:53:12.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T07:53:12.554Z"
             }
           ]
         }
