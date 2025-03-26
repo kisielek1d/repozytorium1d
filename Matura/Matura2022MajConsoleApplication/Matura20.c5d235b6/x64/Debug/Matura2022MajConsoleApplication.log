@@ -1,0 +1,2 @@
+﻿  Matura2022MajConsoleApplication.cpp
+C:\F.C\repozytorium1d\Matura\Matura2022MajConsoleApplication\Matura2022MajConsoleApplication.cpp(78,14): error C2040: 'numbers': 'std::vector<int,std::allocator<int>>' differs in levels of indirection from 'int [200]'
