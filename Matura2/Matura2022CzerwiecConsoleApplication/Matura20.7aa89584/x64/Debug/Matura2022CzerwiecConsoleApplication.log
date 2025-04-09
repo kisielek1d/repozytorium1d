@@ -1,5 +1,2 @@
 ﻿  Matura2022CzerwiecConsoleApplication.cpp
-C:\F.C\repozytorium1d\Matura2\Matura2022CzerwiecConsoleApplication\Matura2022CzerwiecConsoleApplication.cpp(12,9): error C2371: 'numbers': redefinition; different basic types
-      C:\F.C\repozytorium1d\Matura2\Matura2022CzerwiecConsoleApplication\Matura2022CzerwiecConsoleApplication.cpp(10,17):
-      see declaration of 'numbers'
-  
+  Matura2022CzerwiecConsoleApplication.vcxproj -> C:\F.C\repozytorium1d\Matura2\Matura2022CzerwiecConsoleApplication\x64\Debug\Matura2022CzerwiecConsoleApplication.exe
