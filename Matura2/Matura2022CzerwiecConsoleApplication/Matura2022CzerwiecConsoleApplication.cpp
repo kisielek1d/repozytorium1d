@@ -36,7 +36,7 @@ int main() {
     vector<int> liczby = odczytajLiczbyZPliku("liczby.txt");
 
     ofstream wynik("wyniki4.txt");
-
+    //Odbicia, które sa podzielne przez 17
     wynik << "Zad 4.1:";
     for (int num : liczby) {
         int odwrtona = odwrotnaLiczba(num);
@@ -46,6 +46,7 @@ int main() {
     }
 
     int maxDiff = 0, maxNum = 0;
+    //
     wynik << "\nZad 4.2:";
     for (int num : liczby) {
         int odwrtona = odwrotnaLiczba(num);
@@ -56,7 +57,7 @@ int main() {
         }
     }
     wynik << " " << maxNum << " " << maxDiff;
-
+    //Liczby pierwsze
     wynik << "\nZad 4.3:";
     for (int num : liczby) {
         int odwrtona = odwrotnaLiczba(num);
@@ -74,7 +75,7 @@ int main() {
         if (entry.second == 2) countTwo++;
         if (entry.second == 3) countThree++;
     }
-
+    //
     wynik << "\nZad 4.4: " << countDifferent << " " << countTwo << " " << countThree;
 
     return 0;
