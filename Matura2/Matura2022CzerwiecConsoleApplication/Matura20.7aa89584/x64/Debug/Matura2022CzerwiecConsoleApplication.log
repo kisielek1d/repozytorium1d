@@ -1,2 +1,3 @@
 ﻿  Matura2022CzerwiecConsoleApplication.cpp
+C:\F.C\repozytorium1d\Matura2\Matura2022CzerwiecConsoleApplication\Matura2022CzerwiecConsoleApplication.cpp(73,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   Matura2022CzerwiecConsoleApplication.vcxproj -> C:\F.C\repozytorium1d\Matura2\Matura2022CzerwiecConsoleApplication\x64\Debug\Matura2022CzerwiecConsoleApplication.exe
