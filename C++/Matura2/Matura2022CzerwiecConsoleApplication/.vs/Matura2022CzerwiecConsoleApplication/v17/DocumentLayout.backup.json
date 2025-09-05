@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\F.C\\repozytorium1d\\Matura2\\Matura2022CzerwiecConsoleApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA89584-61A2-4B85-AC1C-C94C8236892C}|Matura2022CzerwiecConsoleApplication.vcxproj|C:\\F.C\\repozytorium1d\\Matura2\\Matura2022CzerwiecConsoleApplication\\Matura2022CzerwiecConsoleApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7AA89584-61A2-4B85-AC1C-C94C8236892C}|Matura2022CzerwiecConsoleApplication.vcxproj|solutionrelative:Matura2022CzerwiecConsoleApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Matura2022CzerwiecConsoleApplication.cpp",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Matura2\\Matura2022CzerwiecConsoleApplication\\Matura2022CzerwiecConsoleApplication.cpp",
+              "RelativeDocumentMoniker": "Matura2022CzerwiecConsoleApplication.cpp",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Matura2\\Matura2022CzerwiecConsoleApplication\\Matura2022CzerwiecConsoleApplication.cpp*",
+              "RelativeToolTip": "Matura2022CzerwiecConsoleApplication.cpp*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAnwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-26T06:54:20.833Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

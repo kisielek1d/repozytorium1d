@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\StringConsoleApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A50776AE-750C-45CD-8B99-C99E1F48044B}|StringConsoleApplication\\StringConsoleApplication.vcxproj|C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\StringConsoleApplication\\StringConsoleApplication\\StringConsoleApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A50776AE-750C-45CD-8B99-C99E1F48044B}|StringConsoleApplication\\StringConsoleApplication.vcxproj|solutionrelative:StringConsoleApplication\\StringConsoleApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StringConsoleApplication.cpp",
+              "DocumentMoniker": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\StringConsoleApplication\\StringConsoleApplication\\StringConsoleApplication.cpp",
+              "RelativeDocumentMoniker": "StringConsoleApplication\\StringConsoleApplication.cpp",
+              "ToolTip": "C:\\F.C\\repozytorium1d\\Programownia Obiektowe\\StringConsoleApplication\\StringConsoleApplication\\StringConsoleApplication.cpp",
+              "RelativeToolTip": "StringConsoleApplication\\StringConsoleApplication.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T05:46:37.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
