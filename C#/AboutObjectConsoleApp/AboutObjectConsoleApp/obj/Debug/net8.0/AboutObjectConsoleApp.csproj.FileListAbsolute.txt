@@ -1,0 +1,5 @@
+D:\F.C\repozytorium1d\C#\AboutObjectConsoleApp\AboutObjectConsoleApp\obj\Debug\net8.0\AboutObjectConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\F.C\repozytorium1d\C#\AboutObjectConsoleApp\AboutObjectConsoleApp\obj\Debug\net8.0\AboutObjectConsoleApp.AssemblyInfoInputs.cache
+D:\F.C\repozytorium1d\C#\AboutObjectConsoleApp\AboutObjectConsoleApp\obj\Debug\net8.0\AboutObjectConsoleApp.AssemblyInfo.cs
+D:\F.C\repozytorium1d\C#\AboutObjectConsoleApp\AboutObjectConsoleApp\obj\Debug\net8.0\AboutObjectConsoleApp.csproj.CoreCompileInputs.cache
+D:\F.C\repozytorium1d\C#\AboutObjectConsoleApp\AboutObjectConsoleApp\obj\Debug\net8.0\AboutObjectConsoleApp.sourcelink.json
