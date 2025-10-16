@@ -1,0 +1,15 @@
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\bin\Debug\net8.0\Main.exe
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\bin\Debug\net8.0\Main.deps.json
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\bin\Debug\net8.0\Main.runtimeconfig.json
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\bin\Debug\net8.0\Main.dll
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\bin\Debug\net8.0\Main.pdb
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\obj\Debug\net8.0\Main.GeneratedMSBuildEditorConfig.editorconfig
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\obj\Debug\net8.0\Main.AssemblyInfoInputs.cache
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\obj\Debug\net8.0\Main.AssemblyInfo.cs
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\obj\Debug\net8.0\Main.csproj.CoreCompileInputs.cache
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\obj\Debug\net8.0\Main.sourcelink.json
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\obj\Debug\net8.0\Main.dll
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\obj\Debug\net8.0\refint\Main.dll
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\obj\Debug\net8.0\Main.pdb
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\obj\Debug\net8.0\Main.genruntimeconfig.cache
+D:\F.C\repozytorium1d\Egzamin\2023_1\Main\Main\obj\Debug\net8.0\ref\Main.dll

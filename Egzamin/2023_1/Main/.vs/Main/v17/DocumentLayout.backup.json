@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\F.C\\repozytorium1d\\Egzamin\\2023_1\\Main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D803285-FDD2-4036-9773-BE0F78262E76}|Main\\Main.csproj|d:\\f.c\\repozytorium1d\\egzamin\\2023_1\\main\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D803285-FDD2-4036-9773-BE0F78262E76}|Main\\Main.csproj|solutionrelative:main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D803285-FDD2-4036-9773-BE0F78262E76}|Main\\Main.csproj|d:\\f.c\\repozytorium1d\\egzamin\\2023_1\\main\\main\\task1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D803285-FDD2-4036-9773-BE0F78262E76}|Main\\Main.csproj|solutionrelative:main\\task1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task1.cs",
+              "DocumentMoniker": "D:\\F.C\\repozytorium1d\\Egzamin\\2023_1\\Main\\Main\\Task1.cs",
+              "RelativeDocumentMoniker": "Main\\Task1.cs",
+              "ToolTip": "D:\\F.C\\repozytorium1d\\Egzamin\\2023_1\\Main\\Main\\Task1.cs",
+              "RelativeToolTip": "Main\\Task1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:13:56.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\F.C\\repozytorium1d\\Egzamin\\2023_1\\Main\\Main\\Program.cs",
+              "RelativeDocumentMoniker": "Main\\Program.cs",
+              "ToolTip": "D:\\F.C\\repozytorium1d\\Egzamin\\2023_1\\Main\\Main\\Program.cs",
+              "RelativeToolTip": "Main\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:12:16.52Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
