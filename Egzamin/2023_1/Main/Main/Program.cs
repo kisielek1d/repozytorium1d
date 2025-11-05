@@ -1,6 +1,18 @@
 ﻿using NWD;
 using System;
 
+
+/*
+    nazwa funkcji: Liczenie NWD
+    opis funkcji: funkcja oblicza najwiekszy wspólny dzielnik
+    parametry:
+    1. Pierwsza liczba
+    2. Druga liczba 
+
+    zwracany typ i opis: najwiekszy wspolny dzielnik dwóch liczb 
+    autor: Filip Ciesielski
+
+ */
 namespace Main
 {
     class Program

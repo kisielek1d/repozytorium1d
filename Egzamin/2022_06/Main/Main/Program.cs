@@ -1,21 +1,47 @@
 ﻿using System;
 
+
+/*
+    nazwa projektu: Klasa Osoba
+    opis projektu: Program tworzy obiekty klasy Osoba wita i zlicza liczbę utworzonych instancji.
+    autor: Filip Ciesielski
+
+*/
 namespace Projekt
 {
-    class Program
+    public class Osoba
     {
-        static void Main(string[] args)
+        private int id;
+        private string imie;
+        public static int liczbaInstancji = 0;
+
+        public Osoba()
         {
-            Osoba osoba1 = new Osoba();
-            Osoba osoba2 = new Osoba(1, "Anna");
-            Osoba osoba3 = new Osoba(osoba2);
+            id = 0;
+            imie = "";
+            liczbaInstancji++;
+        }
 
-            osoba1.Przywitaj("Krzysztof");
-            osoba2.Przywitaj("Ewa");
-            osoba3.Przywitaj("Jan");
+        public Osoba(int id, string imie)
+        {
+            this.id = id;
+            this.imie = imie;
+            liczbaInstancji++;
+        }
 
-            Console.WriteLine($"Liczba instancji: {Osoba.liczbaInstancji}");
-            Console.ReadKey();
+        public Osoba(Osoba innaOsoba)
+        {
+            this.id = innaOsoba.id;
+            this.imie = innaOsoba.imie;
+            liczbaInstancji++;
+        }
+
+        public void Przywitaj(string argument)
+        {
+            if (string.IsNullOrEmpty(imie))
+                Console.WriteLine("Brak danych");
+            else
+                Console.WriteLine($"Cześć {argument}, mam na imię {imie}");
         }
     }
 }

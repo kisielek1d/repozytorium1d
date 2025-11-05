@@ -2,39 +2,19 @@
 
 namespace Projekt
 {
-    public class Osoba
+    class Program
     {
-        private int id;
-        private string imie;
-        public static int liczbaInstancji = 0;
-
-        public Osoba()
+        static void Main(string[] args)
         {
-            id = 0;
-            imie = "";
-            liczbaInstancji++;
-        }
+            Osoba osoba1 = new Osoba();
+            Osoba osoba2 = new Osoba(1, "Anna");
+            Osoba osoba3 = new Osoba(osoba2);
 
-        public Osoba(int id, string imie)
-        {
-            this.id = id;
-            this.imie = imie;
-            liczbaInstancji++;
-        }
+            osoba1.Przywitaj("Krzysztof");
+            osoba2.Przywitaj("Ewa");
+            osoba3.Przywitaj("Jan");
 
-        public Osoba(Osoba innaOsoba)
-        {
-            this.id = innaOsoba.id;
-            this.imie = innaOsoba.imie;
-            liczbaInstancji++;
-        }
-
-        public void Przywitaj(string argument)
-        {
-            if (string.IsNullOrEmpty(imie))
-                Console.WriteLine("Brak danych");
-            else
-                Console.WriteLine($"Cześć {argument}, mam na imię {imie}");
+            Console.WriteLine($"Liczba instancji: {Osoba.liczbaInstancji}");
         }
     }
 }

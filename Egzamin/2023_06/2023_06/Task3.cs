@@ -1,37 +1,37 @@
-﻿using System;
-
-
-public class Film
+﻿namespace Wypozyczalnia
 {
-    private string tytul;
-    private int liczbaWypozyczen;
-
-    public Film()
+    class Film
     {
-        tytul = "";
-        liczbaWypozyczen = 0;
-    }
+        private string tytul;
+        private int liczbaWypozyczen;
 
-    public void SetTytul(string nowyTytul)
-    {
-        if (nowyTytul.Length > 20)
-            tytul = nowyTytul.Substring(0, 20);
-        else
-            tytul = nowyTytul;
-    }
+        public Film()
+        {
+            tytul = "";
+            liczbaWypozyczen = 0;
+        }
 
-    public string GetTytul()
-    {
-        return tytul;
-    }
+        public void UstawTytul(string nowyTytul)
+        {
+            if (nowyTytul.Length <= 20)
+                tytul = nowyTytul;
+            else
+                tytul = nowyTytul.Substring(0, 20);
+        }
 
-    public int GetLiczbaWypozyczen()
-    {
-        return liczbaWypozyczen;
-    }
+        public string PobierzTytul()
+        {
+            return tytul;
+        }
 
-    public void InkrementujWypozyczenia()
-    {
-        liczbaWypozyczen++;
+        public int PobierzLiczbeWypozyczen()
+        {
+            return liczbaWypozyczen;
+        }
+
+        public void Inkrementuj()
+        {
+            liczbaWypozyczen++;
+        }
     }
 }
