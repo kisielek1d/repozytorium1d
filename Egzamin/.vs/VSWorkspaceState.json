@@ -3,11 +3,14 @@
     "",
     "\\2022_06\\Main",
     "\\2022_06\\Main\\Main",
+    "\\2023_06",
+    "\\2023_06\\2023_06",
     "\\2023_1",
     "\\2023_1\\2023_01_02",
-    "\\2023_1\\Main",
+    "\\2023_1\\2023_01_02\\Program",
+    "\\2023_1\\2023_01_02\\Program\\Program",
     "\\2023_1\\Main\\Main"
   ],
-  "SelectedNode": "\\2023_1\\2023_01_02",
+  "SelectedNode": "\\2023_1\\2023_01_02\\Program\\Program\\Task4.cs",
   "PreviewInSolutionExplorer": false
 }
