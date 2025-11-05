@@ -1,0 +1,15 @@
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\bin\Debug\net8.0\Program.exe
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\bin\Debug\net8.0\Program.deps.json
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\bin\Debug\net8.0\Program.runtimeconfig.json
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\bin\Debug\net8.0\Program.dll
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\bin\Debug\net8.0\Program.pdb
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\obj\Debug\net8.0\Program.GeneratedMSBuildEditorConfig.editorconfig
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\obj\Debug\net8.0\Program.AssemblyInfoInputs.cache
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\obj\Debug\net8.0\Program.AssemblyInfo.cs
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\obj\Debug\net8.0\Program.csproj.CoreCompileInputs.cache
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\obj\Debug\net8.0\Program.sourcelink.json
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\obj\Debug\net8.0\Program.dll
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\obj\Debug\net8.0\refint\Program.dll
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\obj\Debug\net8.0\Program.pdb
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\obj\Debug\net8.0\Program.genruntimeconfig.cache
+D:\F.C\repozytorium1d\Egzamin\2023_1\2023_01_02\Program\Program\obj\Debug\net8.0\ref\Program.dll
